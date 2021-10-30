@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1895471F27293FF90083675B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895471E27293FF90083675B /* AppDelegate.swift */; };
+		1895472127293FF90083675B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895472027293FF90083675B /* SceneDelegate.swift */; };
+		1895472327293FF90083675B /* flatten dictioary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895472227293FF90083675B /* flatten dictioary.swift */; };
+		1895472627293FF90083675B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1895472427293FF90083675B /* Main.storyboard */; };
+		1895472827293FFB0083675B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1895472727293FFB0083675B /* Assets.xcassets */; };
+		1895472B27293FFB0083675B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1895472927293FFB0083675B /* LaunchScreen.storyboard */; };
+		1895473627293FFB0083675B /* WorkOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895473527293FFB0083675B /* WorkOutTests.swift */; };
+		1895474127293FFB0083675B /* WorkOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895474027293FFB0083675B /* WorkOutUITests.swift */; };
+		1895474F272941070083675B /* custom higher order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895474E272941070083675B /* custom higher order.swift */; };
+		18954753272941A30083675B /* Zero Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954752272941A30083675B /* Zero Matrix.swift */; };
+		18954755272941CC0083675B /* Rotate strig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954754272941CC0083675B /* Rotate strig.swift */; };
+		18954757272941F10083675B /* Priority inversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954756272941F10083675B /* Priority inversion.swift */; };
+		189547592729422E0083675B /* deadlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547582729422E0083675B /* deadlock.swift */; };
+		1895475B2729424F0083675B /* Dispatch barrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895475A2729424F0083675B /* Dispatch barrier.swift */; };
+		1895475D2729426F0083675B /* Min cost climbing stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895475C2729426F0083675B /* Min cost climbing stairs.swift */; };
+		1895475F272942900083675B /* swap_origin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895475E272942900083675B /* swap_origin.swift */; };
+		18954761272942B10083675B /* swap_using_generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954760272942B10083675B /* swap_using_generics.swift */; };
+		18954763272942E00083675B /* BalancedBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954762272942E00083675B /* BalancedBrackets.swift */; };
+		18954765272943030083675B /* majority element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954764272943030083675B /* majority element.swift */; };
+		189547672729432A0083675B /* Voip push.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547662729432A0083675B /* Voip push.swift */; };
+		18954769272943540083675B /* VOIP Call Intent iOS 13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954768272943540083675B /* VOIP Call Intent iOS 13.swift */; };
+		1895476B2729436C0083675B /* Memory address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895476A2729436C0083675B /* Memory address.swift */; };
+		1895476D2729438B0083675B /* Map operator using iterator protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895476C2729438B0083675B /* Map operator using iterator protocol.swift */; };
+		1895476F272943C30083675B /* Determine if two string halves are equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895476E272943C30083675B /* Determine if two string halves are equal.swift */; };
+		18954771272943E30083675B /* Letter Combinations of a phone number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954770272943E30083675B /* Letter Combinations of a phone number.swift */; };
+		18954773272944060083675B /* Verify Alien Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954772272944060083675B /* Verify Alien Dictionary.swift */; };
+		18954775272944270083675B /* Storing character map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954774272944270083675B /* Storing character map.swift */; };
+		18954777272944480083675B /* Find Max Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954776272944480083675B /* Find Max Length.swift */; };
+		18954779272944650083675B /* Longest Valid Parenthesis .swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954778272944650083675B /* Longest Valid Parenthesis .swift */; };
+		1895477B272944840083675B /* Deepest Leaves using DFS recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895477A272944840083675B /* Deepest Leaves using DFS recursion.swift */; };
+		1895477D272944A70083675B /* Finding height of tree using recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895477C272944A70083675B /* Finding height of tree using recursion.swift */; };
+		1895477F272944CA0083675B /* Deepest Level sum with BFS using Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895477E272944CA0083675B /* Deepest Level sum with BFS using Queue.swift */; };
+		18954781272944ED0083675B /* Finding the last level sum using queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954780272944ED0083675B /* Finding the last level sum using queue.swift */; };
+		18954783272945100083675B /* Beautiful Arrangement .swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954782272945100083675B /* Beautiful Arrangement .swift */; };
+		189547852729452B0083675B /* Flatten Nested List Iterator Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547842729452B0083675B /* Flatten Nested List Iterator Solution.swift */; };
+		189547872729454B0083675B /* Vowel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547862729454B0083675B /* Vowel.swift */; };
+		189547892729456A0083675B /* Partition List .swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954788272945690083675B /* Partition List .swift */; };
+		1895478B272945A80083675B /* Diameter of a Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895478A272945A80083675B /* Diameter of a Tree.swift */; };
+		1895478D272945CC0083675B /* Remove adjacent duplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895478C272945CC0083675B /* Remove adjacent duplicates.swift */; };
+		1895478F272945F80083675B /* Remove Nth node from LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895478E272945F80083675B /* Remove Nth node from LinkedList.swift */; };
+		189547912729461B0083675B /* Subarray Sum Equals K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547902729461B0083675B /* Subarray Sum Equals K.swift */; };
+		18954793272946450083675B /* Combination Sum IV using Dynamic Programming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954792272946450083675B /* Combination Sum IV using Dynamic Programming.swift */; };
+		18954795272946670083675B /* N-ary Tree Preorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954794272946670083675B /* N-ary Tree Preorder.swift */; };
+		189547972729468F0083675B /* Triangle (Recursion and Memoization).swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547962729468F0083675B /* Triangle (Recursion and Memoization).swift */; };
+		18954799272946B00083675B /* Min Path Top -Down recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18954798272946B00083675B /* Min Path Top -Down recursion.swift */; };
+		1895479B272946CF0083675B /* Brick Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895479A272946CF0083675B /* Brick Wall.swift */; };
+		1895479D272946EE0083675B /* Pangram check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895479C272946EE0083675B /* Pangram check.swift */; };
+		1895479F272947150083675B /* Count Binary Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895479E272947150083675B /* Count Binary Substrings.swift */; };
+		189547A1272947370083675B /* Rotate Image( Using Transpose and Reverse).swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547A0272947370083675B /* Rotate Image( Using Transpose and Reverse).swift */; };
+		189547A3272947590083675B /* Power of Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547A2272947590083675B /* Power of Three.swift */; };
+		189547A52729477E0083675B /* Find first and Last position of the element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547A42729477E0083675B /* Find first and Last position of the element.swift */; };
+		189547A7272947A70083675B /* Date String to Epoch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547A6272947A70083675B /* Date String to Epoch.swift */; };
+		189547A9272947D40083675B /* Powerful Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547A8272947D40083675B /* Powerful Integers.swift */; };
+		189547AB272947EF0083675B /* Running Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547AA272947EF0083675B /* Running Sum.swift */; };
+		189547AD2729480D0083675B /* Count Possibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547AC2729480D0083675B /* Count Possibility.swift */; };
+		189547AF2729482D0083675B /* Jump Game (Greedy).swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547AE2729482D0083675B /* Jump Game (Greedy).swift */; };
+		189547B12729484C0083675B /* LinkedList to Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547B02729484C0083675B /* LinkedList to Binary Search Tree.swift */; };
+		189547B3272948690083675B /* sortedListToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547B2272948690083675B /* sortedListToBST.swift */; };
+		189547B5272948940083675B /* Search 2D Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547B4272948940083675B /* Search 2D Matrix.swift */; };
+		189547B7272948B40083675B /* Minimum Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547B6272948B40083675B /* Minimum Distance.swift */; };
+		189547B9272948CF0083675B /* Sieve of Erathosthenes .swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547B8272948CF0083675B /* Sieve of Erathosthenes .swift */; };
+		189547BB272948F00083675B /* Max Score from Cards Using Two Pointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547BA272948F00083675B /* Max Score from Cards Using Two Pointers.swift */; };
+		189547BD272949130083675B /* Range Sum 2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547BC272949130083675B /* Range Sum 2D.swift */; };
+		189547BF2729494B0083675B /* Interval List Intersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547BE2729494B0083675B /* Interval List Intersections.swift */; };
+		189547C12729496C0083675B /* Flatten tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547C02729496C0083675B /* Flatten tree.swift */; };
+		189547C32729498A0083675B /* Valid Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547C22729498A0083675B /* Valid Number.swift */; };
+		189547C5272949A80083675B /* Longest String Chain .swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547C4272949A80083675B /* Longest String Chain .swift */; };
+		189547C727294A620083675B /* Longest Mountain Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547C627294A620083675B /* Longest Mountain Array.swift */; };
+		189547C927294A880083675B /* Minimum Moves to Equal array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547C827294A880083675B /* Minimum Moves to Equal array.swift */; };
+		189547CB27294AA30083675B /* uniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547CA27294AA30083675B /* uniquePaths.swift */; };
+		189547CD27294ABD0083675B /* levelOrdertraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547CC27294ABD0083675B /* levelOrdertraversal.swift */; };
+		189547CF27294ADB0083675B /* findAndReplacePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547CE27294ADB0083675B /* findAndReplacePattern.swift */; };
+		189547D127294AF70083675B /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547D027294AF70083675B /* NQueens.swift */; };
+		189547D327294B150083675B /* toLowerCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547D227294B150083675B /* toLowerCase.swift */; };
+		189547D527294B300083675B /* partitioning_deci_binary_numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547D427294B300083675B /* partitioning_deci_binary_numbers.swift */; };
+		189547D727294B4C0083675B /* max_product_word_lengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547D627294B4C0083675B /* max_product_word_lengths.swift */; };
+		189547D927294B6D0083675B /* Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547D827294B6D0083675B /* Binary Tree Level Order Traversal.swift */; };
+		189547DB27294B9E0083675B /* Find and Replace Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547DA27294B9E0083675B /* Find and Replace Pattern.swift */; };
+		189547DD27294BC60083675B /* Reverse polish .swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547DC27294BC60083675B /* Reverse polish .swift */; };
+		189547DF27294BE00083675B /* maxAreacake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547DE27294BE00083675B /* maxAreacake.swift */; };
+		189547E127294C020083675B /* maxAreaOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547E027294C020083675B /* maxAreaOfIsland.swift */; };
+		189547E327294C200083675B /* A-STAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547E227294C200083675B /* A-STAR.swift */; };
+		189547E527294C3C0083675B /* SQUARES OF SORTED ARRAY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547E427294C3C0083675B /* SQUARES OF SORTED ARRAY.swift */; };
+		189547E727294C540083675B /* Merge Two Binary Trees .swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547E627294C540083675B /* Merge Two Binary Trees .swift */; };
+		189547E927294C790083675B /* BFS & DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547E827294C790083675B /* BFS & DFS.swift */; };
+		189547EB27294C9A0083675B /* number of islands .swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547EA27294C9A0083675B /* number of islands .swift */; };
+		189547ED27294CB50083675B /* SYMMETRIC DIFFERENCE-.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547EC27294CB50083675B /* SYMMETRIC DIFFERENCE-.swift */; };
+		189547EF27294CCD0083675B /* Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547EE27294CCD0083675B /* Longest Increasing Subsequence.swift */; };
+		189547F127294CE80083675B /* Tower of haoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547F027294CE80083675B /* Tower of haoi.swift */; };
+		189547F327294CFF0083675B /* Subarray sum equal to k.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189547F227294CFF0083675B /* Subarray sum equal to k.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1895473227293FFB0083675B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1895471327293FF90083675B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1895471A27293FF90083675B;
+			remoteInfo = WorkOut;
+		};
+		1895473D27293FFB0083675B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1895471327293FF90083675B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1895471A27293FF90083675B;
+			remoteInfo = WorkOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1895471B27293FF90083675B /* WorkOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1895471E27293FF90083675B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1895472027293FF90083675B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1895472227293FF90083675B /* flatten dictioary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "flatten dictioary.swift"; sourceTree = "<group>"; };
+		1895472527293FF90083675B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1895472727293FFB0083675B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1895472A27293FFB0083675B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1895472C27293FFB0083675B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1895473127293FFB0083675B /* WorkOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1895473527293FFB0083675B /* WorkOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutTests.swift; sourceTree = "<group>"; };
+		1895473727293FFB0083675B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1895473C27293FFB0083675B /* WorkOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1895474027293FFB0083675B /* WorkOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutUITests.swift; sourceTree = "<group>"; };
+		1895474227293FFB0083675B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1895474E272941070083675B /* custom higher order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "custom higher order.swift"; sourceTree = "<group>"; };
+		18954752272941A30083675B /* Zero Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Matrix.swift"; sourceTree = "<group>"; };
+		18954754272941CC0083675B /* Rotate strig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotate strig.swift"; sourceTree = "<group>"; };
+		18954756272941F10083675B /* Priority inversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Priority inversion.swift"; sourceTree = "<group>"; };
+		189547582729422E0083675B /* deadlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deadlock.swift; sourceTree = "<group>"; };
+		1895475A2729424F0083675B /* Dispatch barrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dispatch barrier.swift"; sourceTree = "<group>"; };
+		1895475C2729426F0083675B /* Min cost climbing stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Min cost climbing stairs.swift"; sourceTree = "<group>"; };
+		1895475E272942900083675B /* swap_origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swap_origin.swift; sourceTree = "<group>"; };
+		18954760272942B10083675B /* swap_using_generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swap_using_generics.swift; sourceTree = "<group>"; };
+		18954762272942E00083675B /* BalancedBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBrackets.swift; sourceTree = "<group>"; };
+		18954764272943030083675B /* majority element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "majority element.swift"; sourceTree = "<group>"; };
+		189547662729432A0083675B /* Voip push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Voip push.swift"; sourceTree = "<group>"; };
+		18954768272943540083675B /* VOIP Call Intent iOS 13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VOIP Call Intent iOS 13.swift"; sourceTree = "<group>"; };
+		1895476A2729436C0083675B /* Memory address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Memory address.swift"; sourceTree = "<group>"; };
+		1895476C2729438B0083675B /* Map operator using iterator protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Map operator using iterator protocol.swift"; sourceTree = "<group>"; };
+		1895476E272943C30083675B /* Determine if two string halves are equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Determine if two string halves are equal.swift"; sourceTree = "<group>"; };
+		18954770272943E30083675B /* Letter Combinations of a phone number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Letter Combinations of a phone number.swift"; sourceTree = "<group>"; };
+		18954772272944060083675B /* Verify Alien Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Verify Alien Dictionary.swift"; sourceTree = "<group>"; };
+		18954774272944270083675B /* Storing character map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storing character map.swift"; sourceTree = "<group>"; };
+		18954776272944480083675B /* Find Max Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Max Length.swift"; sourceTree = "<group>"; };
+		18954778272944650083675B /* Longest Valid Parenthesis .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Valid Parenthesis .swift"; sourceTree = "<group>"; };
+		1895477A272944840083675B /* Deepest Leaves using DFS recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deepest Leaves using DFS recursion.swift"; sourceTree = "<group>"; };
+		1895477C272944A70083675B /* Finding height of tree using recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Finding height of tree using recursion.swift"; sourceTree = "<group>"; };
+		1895477E272944CA0083675B /* Deepest Level sum with BFS using Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deepest Level sum with BFS using Queue.swift"; sourceTree = "<group>"; };
+		18954780272944ED0083675B /* Finding the last level sum using queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Finding the last level sum using queue.swift"; sourceTree = "<group>"; };
+		18954782272945100083675B /* Beautiful Arrangement .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Beautiful Arrangement .swift"; sourceTree = "<group>"; };
+		189547842729452B0083675B /* Flatten Nested List Iterator Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flatten Nested List Iterator Solution.swift"; sourceTree = "<group>"; };
+		189547862729454B0083675B /* Vowel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vowel.swift; sourceTree = "<group>"; };
+		18954788272945690083675B /* Partition List .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Partition List .swift"; sourceTree = "<group>"; };
+		1895478A272945A80083675B /* Diameter of a Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diameter of a Tree.swift"; sourceTree = "<group>"; };
+		1895478C272945CC0083675B /* Remove adjacent duplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove adjacent duplicates.swift"; sourceTree = "<group>"; };
+		1895478E272945F80083675B /* Remove Nth node from LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Nth node from LinkedList.swift"; sourceTree = "<group>"; };
+		189547902729461B0083675B /* Subarray Sum Equals K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subarray Sum Equals K.swift"; sourceTree = "<group>"; };
+		18954792272946450083675B /* Combination Sum IV using Dynamic Programming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combination Sum IV using Dynamic Programming.swift"; sourceTree = "<group>"; };
+		18954794272946670083675B /* N-ary Tree Preorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N-ary Tree Preorder.swift"; sourceTree = "<group>"; };
+		189547962729468F0083675B /* Triangle (Recursion and Memoization).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Triangle (Recursion and Memoization).swift"; sourceTree = "<group>"; };
+		18954798272946B00083675B /* Min Path Top -Down recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Min Path Top -Down recursion.swift"; sourceTree = "<group>"; };
+		1895479A272946CF0083675B /* Brick Wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Brick Wall.swift"; sourceTree = "<group>"; };
+		1895479C272946EE0083675B /* Pangram check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pangram check.swift"; sourceTree = "<group>"; };
+		1895479E272947150083675B /* Count Binary Substrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Binary Substrings.swift"; sourceTree = "<group>"; };
+		189547A0272947370083675B /* Rotate Image( Using Transpose and Reverse).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotate Image( Using Transpose and Reverse).swift"; sourceTree = "<group>"; };
+		189547A2272947590083675B /* Power of Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Power of Three.swift"; sourceTree = "<group>"; };
+		189547A42729477E0083675B /* Find first and Last position of the element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find first and Last position of the element.swift"; sourceTree = "<group>"; };
+		189547A6272947A70083675B /* Date String to Epoch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date String to Epoch.swift"; sourceTree = "<group>"; };
+		189547A8272947D40083675B /* Powerful Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Powerful Integers.swift"; sourceTree = "<group>"; };
+		189547AA272947EF0083675B /* Running Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Running Sum.swift"; sourceTree = "<group>"; };
+		189547AC2729480D0083675B /* Count Possibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Possibility.swift"; sourceTree = "<group>"; };
+		189547AE2729482D0083675B /* Jump Game (Greedy).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump Game (Greedy).swift"; sourceTree = "<group>"; };
+		189547B02729484C0083675B /* LinkedList to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkedList to Binary Search Tree.swift"; sourceTree = "<group>"; };
+		189547B2272948690083675B /* sortedListToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortedListToBST.swift; sourceTree = "<group>"; };
+		189547B4272948940083675B /* Search 2D Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search 2D Matrix.swift"; sourceTree = "<group>"; };
+		189547B6272948B40083675B /* Minimum Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Distance.swift"; sourceTree = "<group>"; };
+		189547B8272948CF0083675B /* Sieve of Erathosthenes .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sieve of Erathosthenes .swift"; sourceTree = "<group>"; };
+		189547BA272948F00083675B /* Max Score from Cards Using Two Pointers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Score from Cards Using Two Pointers.swift"; sourceTree = "<group>"; };
+		189547BC272949130083675B /* Range Sum 2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Range Sum 2D.swift"; sourceTree = "<group>"; };
+		189547BE2729494B0083675B /* Interval List Intersections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interval List Intersections.swift"; sourceTree = "<group>"; };
+		189547C02729496C0083675B /* Flatten tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flatten tree.swift"; sourceTree = "<group>"; };
+		189547C22729498A0083675B /* Valid Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Number.swift"; sourceTree = "<group>"; };
+		189547C4272949A80083675B /* Longest String Chain .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest String Chain .swift"; sourceTree = "<group>"; };
+		189547C627294A620083675B /* Longest Mountain Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Mountain Array.swift"; sourceTree = "<group>"; };
+		189547C827294A880083675B /* Minimum Moves to Equal array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Moves to Equal array.swift"; sourceTree = "<group>"; };
+		189547CA27294AA30083675B /* uniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uniquePaths.swift; sourceTree = "<group>"; };
+		189547CC27294ABD0083675B /* levelOrdertraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOrdertraversal.swift; sourceTree = "<group>"; };
+		189547CE27294ADB0083675B /* findAndReplacePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findAndReplacePattern.swift; sourceTree = "<group>"; };
+		189547D027294AF70083675B /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
+		189547D227294B150083675B /* toLowerCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toLowerCase.swift; sourceTree = "<group>"; };
+		189547D427294B300083675B /* partitioning_deci_binary_numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partitioning_deci_binary_numbers.swift; sourceTree = "<group>"; };
+		189547D627294B4C0083675B /* max_product_word_lengths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = max_product_word_lengths.swift; sourceTree = "<group>"; };
+		189547D827294B6D0083675B /* Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
+		189547DA27294B9E0083675B /* Find and Replace Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find and Replace Pattern.swift"; sourceTree = "<group>"; };
+		189547DC27294BC60083675B /* Reverse polish .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse polish .swift"; sourceTree = "<group>"; };
+		189547DE27294BE00083675B /* maxAreacake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxAreacake.swift; sourceTree = "<group>"; };
+		189547E027294C020083675B /* maxAreaOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxAreaOfIsland.swift; sourceTree = "<group>"; };
+		189547E227294C200083675B /* A-STAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-STAR.swift"; sourceTree = "<group>"; };
+		189547E427294C3C0083675B /* SQUARES OF SORTED ARRAY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SQUARES OF SORTED ARRAY.swift"; sourceTree = "<group>"; };
+		189547E627294C540083675B /* Merge Two Binary Trees .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Two Binary Trees .swift"; sourceTree = "<group>"; };
+		189547E827294C790083675B /* BFS & DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BFS & DFS.swift"; sourceTree = "<group>"; };
+		189547EA27294C9A0083675B /* number of islands .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "number of islands .swift"; sourceTree = "<group>"; };
+		189547EC27294CB50083675B /* SYMMETRIC DIFFERENCE-.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SYMMETRIC DIFFERENCE-.swift"; sourceTree = "<group>"; };
+		189547EE27294CCD0083675B /* Longest Increasing Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Increasing Subsequence.swift"; sourceTree = "<group>"; };
+		189547F027294CE80083675B /* Tower of haoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tower of haoi.swift"; sourceTree = "<group>"; };
+		189547F227294CFF0083675B /* Subarray sum equal to k.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subarray sum equal to k.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1895471827293FF90083675B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1895472E27293FFB0083675B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1895473927293FFB0083675B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1895471227293FF90083675B = {
+			isa = PBXGroup;
+			children = (
+				1895471D27293FF90083675B /* WorkOut */,
+				1895473427293FFB0083675B /* WorkOutTests */,
+				1895473F27293FFB0083675B /* WorkOutUITests */,
+				1895471C27293FF90083675B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1895471C27293FF90083675B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1895471B27293FF90083675B /* WorkOut.app */,
+				1895473127293FFB0083675B /* WorkOutTests.xctest */,
+				1895473C27293FFB0083675B /* WorkOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1895471D27293FF90083675B /* WorkOut */ = {
+			isa = PBXGroup;
+			children = (
+				1895471E27293FF90083675B /* AppDelegate.swift */,
+				1895472027293FF90083675B /* SceneDelegate.swift */,
+				1895472227293FF90083675B /* flatten dictioary.swift */,
+				1895474E272941070083675B /* custom higher order.swift */,
+				1895472427293FF90083675B /* Main.storyboard */,
+				1895472727293FFB0083675B /* Assets.xcassets */,
+				1895472927293FFB0083675B /* LaunchScreen.storyboard */,
+				1895472C27293FFB0083675B /* Info.plist */,
+				18954752272941A30083675B /* Zero Matrix.swift */,
+				18954754272941CC0083675B /* Rotate strig.swift */,
+				18954756272941F10083675B /* Priority inversion.swift */,
+				189547582729422E0083675B /* deadlock.swift */,
+				1895475A2729424F0083675B /* Dispatch barrier.swift */,
+				1895475C2729426F0083675B /* Min cost climbing stairs.swift */,
+				1895475E272942900083675B /* swap_origin.swift */,
+				18954760272942B10083675B /* swap_using_generics.swift */,
+				18954762272942E00083675B /* BalancedBrackets.swift */,
+				18954764272943030083675B /* majority element.swift */,
+				189547662729432A0083675B /* Voip push.swift */,
+				18954768272943540083675B /* VOIP Call Intent iOS 13.swift */,
+				1895476A2729436C0083675B /* Memory address.swift */,
+				1895476C2729438B0083675B /* Map operator using iterator protocol.swift */,
+				1895476E272943C30083675B /* Determine if two string halves are equal.swift */,
+				18954770272943E30083675B /* Letter Combinations of a phone number.swift */,
+				18954772272944060083675B /* Verify Alien Dictionary.swift */,
+				18954774272944270083675B /* Storing character map.swift */,
+				18954776272944480083675B /* Find Max Length.swift */,
+				18954778272944650083675B /* Longest Valid Parenthesis .swift */,
+				1895477A272944840083675B /* Deepest Leaves using DFS recursion.swift */,
+				1895477C272944A70083675B /* Finding height of tree using recursion.swift */,
+				1895477E272944CA0083675B /* Deepest Level sum with BFS using Queue.swift */,
+				18954780272944ED0083675B /* Finding the last level sum using queue.swift */,
+				18954782272945100083675B /* Beautiful Arrangement .swift */,
+				189547842729452B0083675B /* Flatten Nested List Iterator Solution.swift */,
+				189547862729454B0083675B /* Vowel.swift */,
+				18954788272945690083675B /* Partition List .swift */,
+				1895478A272945A80083675B /* Diameter of a Tree.swift */,
+				1895478C272945CC0083675B /* Remove adjacent duplicates.swift */,
+				1895478E272945F80083675B /* Remove Nth node from LinkedList.swift */,
+				189547902729461B0083675B /* Subarray Sum Equals K.swift */,
+				18954792272946450083675B /* Combination Sum IV using Dynamic Programming.swift */,
+				18954794272946670083675B /* N-ary Tree Preorder.swift */,
+				189547962729468F0083675B /* Triangle (Recursion and Memoization).swift */,
+				18954798272946B00083675B /* Min Path Top -Down recursion.swift */,
+				1895479A272946CF0083675B /* Brick Wall.swift */,
+				1895479C272946EE0083675B /* Pangram check.swift */,
+				1895479E272947150083675B /* Count Binary Substrings.swift */,
+				189547A0272947370083675B /* Rotate Image( Using Transpose and Reverse).swift */,
+				189547A2272947590083675B /* Power of Three.swift */,
+				189547A42729477E0083675B /* Find first and Last position of the element.swift */,
+				189547A6272947A70083675B /* Date String to Epoch.swift */,
+				189547A8272947D40083675B /* Powerful Integers.swift */,
+				189547AA272947EF0083675B /* Running Sum.swift */,
+				189547AC2729480D0083675B /* Count Possibility.swift */,
+				189547AE2729482D0083675B /* Jump Game (Greedy).swift */,
+				189547B02729484C0083675B /* LinkedList to Binary Search Tree.swift */,
+				189547B2272948690083675B /* sortedListToBST.swift */,
+				189547B4272948940083675B /* Search 2D Matrix.swift */,
+				189547B6272948B40083675B /* Minimum Distance.swift */,
+				189547B8272948CF0083675B /* Sieve of Erathosthenes .swift */,
+				189547BA272948F00083675B /* Max Score from Cards Using Two Pointers.swift */,
+				189547BC272949130083675B /* Range Sum 2D.swift */,
+				189547BE2729494B0083675B /* Interval List Intersections.swift */,
+				189547C02729496C0083675B /* Flatten tree.swift */,
+				189547C22729498A0083675B /* Valid Number.swift */,
+				189547C4272949A80083675B /* Longest String Chain .swift */,
+				189547C627294A620083675B /* Longest Mountain Array.swift */,
+				189547C827294A880083675B /* Minimum Moves to Equal array.swift */,
+				189547CA27294AA30083675B /* uniquePaths.swift */,
+				189547CC27294ABD0083675B /* levelOrdertraversal.swift */,
+				189547CE27294ADB0083675B /* findAndReplacePattern.swift */,
+				189547D027294AF70083675B /* NQueens.swift */,
+				189547D227294B150083675B /* toLowerCase.swift */,
+				189547D427294B300083675B /* partitioning_deci_binary_numbers.swift */,
+				189547D627294B4C0083675B /* max_product_word_lengths.swift */,
+				189547D827294B6D0083675B /* Binary Tree Level Order Traversal.swift */,
+				189547DA27294B9E0083675B /* Find and Replace Pattern.swift */,
+				189547DC27294BC60083675B /* Reverse polish .swift */,
+				189547DE27294BE00083675B /* maxAreacake.swift */,
+				189547E027294C020083675B /* maxAreaOfIsland.swift */,
+				189547E227294C200083675B /* A-STAR.swift */,
+				189547E427294C3C0083675B /* SQUARES OF SORTED ARRAY.swift */,
+				189547E627294C540083675B /* Merge Two Binary Trees .swift */,
+				189547E827294C790083675B /* BFS & DFS.swift */,
+				189547EA27294C9A0083675B /* number of islands .swift */,
+				189547EC27294CB50083675B /* SYMMETRIC DIFFERENCE-.swift */,
+				189547EE27294CCD0083675B /* Longest Increasing Subsequence.swift */,
+				189547F027294CE80083675B /* Tower of haoi.swift */,
+				189547F227294CFF0083675B /* Subarray sum equal to k.swift */,
+			);
+			path = WorkOut;
+			sourceTree = "<group>";
+		};
+		1895473427293FFB0083675B /* WorkOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				1895473527293FFB0083675B /* WorkOutTests.swift */,
+				1895473727293FFB0083675B /* Info.plist */,
+			);
+			path = WorkOutTests;
+			sourceTree = "<group>";
+		};
+		1895473F27293FFB0083675B /* WorkOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1895474027293FFB0083675B /* WorkOutUITests.swift */,
+				1895474227293FFB0083675B /* Info.plist */,
+			);
+			path = WorkOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1895471A27293FF90083675B /* WorkOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1895474527293FFB0083675B /* Build configuration list for PBXNativeTarget "WorkOut" */;
+			buildPhases = (
+				1895471727293FF90083675B /* Sources */,
+				1895471827293FF90083675B /* Frameworks */,
+				1895471927293FF90083675B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkOut;
+			productName = WorkOut;
+			productReference = 1895471B27293FF90083675B /* WorkOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1895473027293FFB0083675B /* WorkOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1895474827293FFB0083675B /* Build configuration list for PBXNativeTarget "WorkOutTests" */;
+			buildPhases = (
+				1895472D27293FFB0083675B /* Sources */,
+				1895472E27293FFB0083675B /* Frameworks */,
+				1895472F27293FFB0083675B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1895473327293FFB0083675B /* PBXTargetDependency */,
+			);
+			name = WorkOutTests;
+			productName = WorkOutTests;
+			productReference = 1895473127293FFB0083675B /* WorkOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1895473B27293FFB0083675B /* WorkOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1895474B27293FFB0083675B /* Build configuration list for PBXNativeTarget "WorkOutUITests" */;
+			buildPhases = (
+				1895473827293FFB0083675B /* Sources */,
+				1895473927293FFB0083675B /* Frameworks */,
+				1895473A27293FFB0083675B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1895473E27293FFB0083675B /* PBXTargetDependency */,
+			);
+			name = WorkOutUITests;
+			productName = WorkOutUITests;
+			productReference = 1895473C27293FFB0083675B /* WorkOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1895471327293FF90083675B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1895471A27293FF90083675B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1895473027293FFB0083675B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1895471A27293FF90083675B;
+					};
+					1895473B27293FFB0083675B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1895471A27293FF90083675B;
+					};
+				};
+			};
+			buildConfigurationList = 1895471627293FF90083675B /* Build configuration list for PBXProject "WorkOut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1895471227293FF90083675B;
+			productRefGroup = 1895471C27293FF90083675B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1895471A27293FF90083675B /* WorkOut */,
+				1895473027293FFB0083675B /* WorkOutTests */,
+				1895473B27293FFB0083675B /* WorkOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1895471927293FF90083675B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1895472B27293FFB0083675B /* LaunchScreen.storyboard in Resources */,
+				1895472827293FFB0083675B /* Assets.xcassets in Resources */,
+				1895472627293FF90083675B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1895472F27293FFB0083675B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1895473A27293FFB0083675B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1895471727293FF90083675B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189547672729432A0083675B /* Voip push.swift in Sources */,
+				18954775272944270083675B /* Storing character map.swift in Sources */,
+				189547912729461B0083675B /* Subarray Sum Equals K.swift in Sources */,
+				189547592729422E0083675B /* deadlock.swift in Sources */,
+				18954753272941A30083675B /* Zero Matrix.swift in Sources */,
+				1895479B272946CF0083675B /* Brick Wall.swift in Sources */,
+				189547EB27294C9A0083675B /* number of islands .swift in Sources */,
+				189547BF2729494B0083675B /* Interval List Intersections.swift in Sources */,
+				189547D127294AF70083675B /* NQueens.swift in Sources */,
+				189547D727294B4C0083675B /* max_product_word_lengths.swift in Sources */,
+				189547D527294B300083675B /* partitioning_deci_binary_numbers.swift in Sources */,
+				18954773272944060083675B /* Verify Alien Dictionary.swift in Sources */,
+				189547EF27294CCD0083675B /* Longest Increasing Subsequence.swift in Sources */,
+				189547B3272948690083675B /* sortedListToBST.swift in Sources */,
+				189547A9272947D40083675B /* Powerful Integers.swift in Sources */,
+				189547E527294C3C0083675B /* SQUARES OF SORTED ARRAY.swift in Sources */,
+				189547AB272947EF0083675B /* Running Sum.swift in Sources */,
+				1895477B272944840083675B /* Deepest Leaves using DFS recursion.swift in Sources */,
+				189547B12729484C0083675B /* LinkedList to Binary Search Tree.swift in Sources */,
+				189547892729456A0083675B /* Partition List .swift in Sources */,
+				18954769272943540083675B /* VOIP Call Intent iOS 13.swift in Sources */,
+				189547F127294CE80083675B /* Tower of haoi.swift in Sources */,
+				189547B9272948CF0083675B /* Sieve of Erathosthenes .swift in Sources */,
+				189547F327294CFF0083675B /* Subarray sum equal to k.swift in Sources */,
+				1895479D272946EE0083675B /* Pangram check.swift in Sources */,
+				189547C927294A880083675B /* Minimum Moves to Equal array.swift in Sources */,
+				189547CF27294ADB0083675B /* findAndReplacePattern.swift in Sources */,
+				18954781272944ED0083675B /* Finding the last level sum using queue.swift in Sources */,
+				189547D327294B150083675B /* toLowerCase.swift in Sources */,
+				1895478F272945F80083675B /* Remove Nth node from LinkedList.swift in Sources */,
+				1895476F272943C30083675B /* Determine if two string halves are equal.swift in Sources */,
+				189547B5272948940083675B /* Search 2D Matrix.swift in Sources */,
+				189547A1272947370083675B /* Rotate Image( Using Transpose and Reverse).swift in Sources */,
+				189547BD272949130083675B /* Range Sum 2D.swift in Sources */,
+				189547CD27294ABD0083675B /* levelOrdertraversal.swift in Sources */,
+				189547C32729498A0083675B /* Valid Number.swift in Sources */,
+				189547D927294B6D0083675B /* Binary Tree Level Order Traversal.swift in Sources */,
+				1895478D272945CC0083675B /* Remove adjacent duplicates.swift in Sources */,
+				189547872729454B0083675B /* Vowel.swift in Sources */,
+				18954771272943E30083675B /* Letter Combinations of a phone number.swift in Sources */,
+				189547A3272947590083675B /* Power of Three.swift in Sources */,
+				189547B7272948B40083675B /* Minimum Distance.swift in Sources */,
+				18954793272946450083675B /* Combination Sum IV using Dynamic Programming.swift in Sources */,
+				189547A7272947A70083675B /* Date String to Epoch.swift in Sources */,
+				18954799272946B00083675B /* Min Path Top -Down recursion.swift in Sources */,
+				18954777272944480083675B /* Find Max Length.swift in Sources */,
+				189547AF2729482D0083675B /* Jump Game (Greedy).swift in Sources */,
+				189547E727294C540083675B /* Merge Two Binary Trees .swift in Sources */,
+				189547972729468F0083675B /* Triangle (Recursion and Memoization).swift in Sources */,
+				189547E127294C020083675B /* maxAreaOfIsland.swift in Sources */,
+				1895472327293FF90083675B /* flatten dictioary.swift in Sources */,
+				18954779272944650083675B /* Longest Valid Parenthesis .swift in Sources */,
+				189547DB27294B9E0083675B /* Find and Replace Pattern.swift in Sources */,
+				1895471F27293FF90083675B /* AppDelegate.swift in Sources */,
+				189547ED27294CB50083675B /* SYMMETRIC DIFFERENCE-.swift in Sources */,
+				189547C5272949A80083675B /* Longest String Chain .swift in Sources */,
+				18954795272946670083675B /* N-ary Tree Preorder.swift in Sources */,
+				18954757272941F10083675B /* Priority inversion.swift in Sources */,
+				18954763272942E00083675B /* BalancedBrackets.swift in Sources */,
+				1895475F272942900083675B /* swap_origin.swift in Sources */,
+				1895475B2729424F0083675B /* Dispatch barrier.swift in Sources */,
+				189547E927294C790083675B /* BFS & DFS.swift in Sources */,
+				18954765272943030083675B /* majority element.swift in Sources */,
+				1895479F272947150083675B /* Count Binary Substrings.swift in Sources */,
+				189547DD27294BC60083675B /* Reverse polish .swift in Sources */,
+				189547BB272948F00083675B /* Max Score from Cards Using Two Pointers.swift in Sources */,
+				189547E327294C200083675B /* A-STAR.swift in Sources */,
+				1895477D272944A70083675B /* Finding height of tree using recursion.swift in Sources */,
+				18954755272941CC0083675B /* Rotate strig.swift in Sources */,
+				189547A52729477E0083675B /* Find first and Last position of the element.swift in Sources */,
+				1895475D2729426F0083675B /* Min cost climbing stairs.swift in Sources */,
+				189547AD2729480D0083675B /* Count Possibility.swift in Sources */,
+				1895477F272944CA0083675B /* Deepest Level sum with BFS using Queue.swift in Sources */,
+				189547DF27294BE00083675B /* maxAreacake.swift in Sources */,
+				18954783272945100083675B /* Beautiful Arrangement .swift in Sources */,
+				1895474F272941070083675B /* custom higher order.swift in Sources */,
+				1895476B2729436C0083675B /* Memory address.swift in Sources */,
+				189547CB27294AA30083675B /* uniquePaths.swift in Sources */,
+				1895472127293FF90083675B /* SceneDelegate.swift in Sources */,
+				189547C12729496C0083675B /* Flatten tree.swift in Sources */,
+				18954761272942B10083675B /* swap_using_generics.swift in Sources */,
+				189547C727294A620083675B /* Longest Mountain Array.swift in Sources */,
+				1895478B272945A80083675B /* Diameter of a Tree.swift in Sources */,
+				189547852729452B0083675B /* Flatten Nested List Iterator Solution.swift in Sources */,
+				1895476D2729438B0083675B /* Map operator using iterator protocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1895472D27293FFB0083675B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1895473627293FFB0083675B /* WorkOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1895473827293FFB0083675B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1895474127293FFB0083675B /* WorkOutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1895473327293FFB0083675B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1895471A27293FF90083675B /* WorkOut */;
+			targetProxy = 1895473227293FFB0083675B /* PBXContainerItemProxy */;
+		};
+		1895473E27293FFB0083675B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1895471A27293FF90083675B /* WorkOut */;
+			targetProxy = 1895473D27293FFB0083675B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1895472427293FF90083675B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1895472527293FF90083675B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1895472927293FFB0083675B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1895472A27293FFB0083675B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1895474327293FFB0083675B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1895474427293FFB0083675B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1895474627293FFB0083675B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babloo.WorkOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1895474727293FFB0083675B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babloo.WorkOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1895474927293FFB0083675B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkOutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babloo.WorkOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkOut.app/WorkOut";
+			};
+			name = Debug;
+		};
+		1895474A27293FFB0083675B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkOutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babloo.WorkOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkOut.app/WorkOut";
+			};
+			name = Release;
+		};
+		1895474C27293FFB0083675B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babloo.WorkOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkOut;
+			};
+			name = Debug;
+		};
+		1895474D27293FFB0083675B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Babloo.WorkOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkOut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1895471627293FF90083675B /* Build configuration list for PBXProject "WorkOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1895474327293FFB0083675B /* Debug */,
+				1895474427293FFB0083675B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1895474527293FFB0083675B /* Build configuration list for PBXNativeTarget "WorkOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1895474627293FFB0083675B /* Debug */,
+				1895474727293FFB0083675B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1895474827293FFB0083675B /* Build configuration list for PBXNativeTarget "WorkOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1895474927293FFB0083675B /* Debug */,
+				1895474A27293FFB0083675B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1895474B27293FFB0083675B /* Build configuration list for PBXNativeTarget "WorkOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1895474C27293FFB0083675B /* Debug */,
+				1895474D27293FFB0083675B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1895471327293FF90083675B /* Project object */;
+}
