@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18597BCF279B095F00659529 /* primeFactorsOfNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BCE279B095F00659529 /* primeFactorsOfNumber.swift */; };
+		18597BD1279B09D200659529 /* removes the first occurrence from array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BD0279B09D200659529 /* removes the first occurrence from array.swift */; };
+		18597BD3279B09FC00659529 /* removes all occurrences from array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BD2279B09FC00659529 /* removes all occurrences from array.swift */; };
+		18597BD5279B0A2600659529 /* Reverse an array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BD4279B0A2600659529 /* Reverse an array.swift */; };
+		18597BD7279B0A4A00659529 /* minimum and maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BD6279B0A4A00659529 /* minimum and maximum.swift */; };
+		18597BD9279B0A6900659529 /* Merge dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BD8279B0A6900659529 /* Merge dictionaries.swift */; };
+		18597BDB279B0A8B00659529 /* occurrencesOfCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BDA279B0A8B00659529 /* occurrencesOfCharacters.swift */; };
+		18597BDD279B0AB700659529 /* values of a dictionary are unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BDC279B0AB700659529 /* values of a dictionary are unique.swift */; };
+		18597BDF279B0AD900659529 /* number is prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BDE279B0AD900659529 /* number is prime.swift */; };
+		18597BE1279B0B0A00659529 /* fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BE0279B0B0A00659529 /* fibonacci.swift */; };
+		18597BE3279B0B2F00659529 /* count of each character in the string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BE2279B0B2F00659529 /* count of each character in the string.swift */; };
+		18597BE5279B0B6A00659529 /* numberOfWords in string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BE4279B0B6A00659529 /* numberOfWords in string.swift */; };
+		18597BE7279B0BB100659529 /* Reverse words in string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BE6279B0BB100659529 /* Reverse words in string.swift */; };
+		18597BE9279B0BFF00659529 /* split the string into chunks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BE8279B0BFF00659529 /* split the string into chunks.swift */; };
+		18597BEB279B0C4C00659529 /* individual word reversed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BEA279B0C4C00659529 /* individual word reversed.swift */; };
 		1895471F27293FF90083675B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895471E27293FF90083675B /* AppDelegate.swift */; };
 		1895472127293FF90083675B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895472027293FF90083675B /* SceneDelegate.swift */; };
 		1895472327293FF90083675B /* flatten dictioary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895472227293FF90083675B /* flatten dictioary.swift */; };
@@ -117,6 +132,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18597BCE279B095F00659529 /* primeFactorsOfNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeFactorsOfNumber.swift; sourceTree = "<group>"; };
+		18597BD0279B09D200659529 /* removes the first occurrence from array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "removes the first occurrence from array.swift"; sourceTree = "<group>"; };
+		18597BD2279B09FC00659529 /* removes all occurrences from array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "removes all occurrences from array.swift"; sourceTree = "<group>"; };
+		18597BD4279B0A2600659529 /* Reverse an array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse an array.swift"; sourceTree = "<group>"; };
+		18597BD6279B0A4A00659529 /* minimum and maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "minimum and maximum.swift"; sourceTree = "<group>"; };
+		18597BD8279B0A6900659529 /* Merge dictionaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge dictionaries.swift"; sourceTree = "<group>"; };
+		18597BDA279B0A8B00659529 /* occurrencesOfCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = occurrencesOfCharacters.swift; sourceTree = "<group>"; };
+		18597BDC279B0AB700659529 /* values of a dictionary are unique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "values of a dictionary are unique.swift"; sourceTree = "<group>"; };
+		18597BDE279B0AD900659529 /* number is prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "number is prime.swift"; sourceTree = "<group>"; };
+		18597BE0279B0B0A00659529 /* fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacci.swift; sourceTree = "<group>"; };
+		18597BE2279B0B2F00659529 /* count of each character in the string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "count of each character in the string.swift"; sourceTree = "<group>"; };
+		18597BE4279B0B6A00659529 /* numberOfWords in string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "numberOfWords in string.swift"; sourceTree = "<group>"; };
+		18597BE6279B0BB100659529 /* Reverse words in string.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse words in string.swift"; sourceTree = "<group>"; };
+		18597BE8279B0BFF00659529 /* split the string into chunks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "split the string into chunks.swift"; sourceTree = "<group>"; };
+		18597BEA279B0C4C00659529 /* individual word reversed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "individual word reversed.swift"; sourceTree = "<group>"; };
 		1895471B27293FF90083675B /* WorkOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1895471E27293FF90083675B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1895472027293FF90083675B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -352,6 +382,21 @@
 				189547EE27294CCD0083675B /* Longest Increasing Subsequence.swift */,
 				189547F027294CE80083675B /* Tower of haoi.swift */,
 				189547F227294CFF0083675B /* Subarray sum equal to k.swift */,
+				18597BCE279B095F00659529 /* primeFactorsOfNumber.swift */,
+				18597BD0279B09D200659529 /* removes the first occurrence from array.swift */,
+				18597BD2279B09FC00659529 /* removes all occurrences from array.swift */,
+				18597BD4279B0A2600659529 /* Reverse an array.swift */,
+				18597BD6279B0A4A00659529 /* minimum and maximum.swift */,
+				18597BD8279B0A6900659529 /* Merge dictionaries.swift */,
+				18597BDA279B0A8B00659529 /* occurrencesOfCharacters.swift */,
+				18597BDC279B0AB700659529 /* values of a dictionary are unique.swift */,
+				18597BDE279B0AD900659529 /* number is prime.swift */,
+				18597BE0279B0B0A00659529 /* fibonacci.swift */,
+				18597BE2279B0B2F00659529 /* count of each character in the string.swift */,
+				18597BE4279B0B6A00659529 /* numberOfWords in string.swift */,
+				18597BE6279B0BB100659529 /* Reverse words in string.swift */,
+				18597BE8279B0BFF00659529 /* split the string into chunks.swift */,
+				18597BEA279B0C4C00659529 /* individual word reversed.swift */,
 			);
 			path = WorkOut;
 			sourceTree = "<group>";
@@ -504,30 +549,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18597BCF279B095F00659529 /* primeFactorsOfNumber.swift in Sources */,
 				189547672729432A0083675B /* Voip push.swift in Sources */,
 				18954775272944270083675B /* Storing character map.swift in Sources */,
+				18597BE7279B0BB100659529 /* Reverse words in string.swift in Sources */,
 				189547912729461B0083675B /* Subarray Sum Equals K.swift in Sources */,
 				189547592729422E0083675B /* deadlock.swift in Sources */,
 				18954753272941A30083675B /* Zero Matrix.swift in Sources */,
+				18597BDD279B0AB700659529 /* values of a dictionary are unique.swift in Sources */,
 				1895479B272946CF0083675B /* Brick Wall.swift in Sources */,
 				189547EB27294C9A0083675B /* number of islands .swift in Sources */,
 				189547BF2729494B0083675B /* Interval List Intersections.swift in Sources */,
 				189547D127294AF70083675B /* NQueens.swift in Sources */,
 				189547D727294B4C0083675B /* max_product_word_lengths.swift in Sources */,
+				18597BDF279B0AD900659529 /* number is prime.swift in Sources */,
 				189547D527294B300083675B /* partitioning_deci_binary_numbers.swift in Sources */,
 				18954773272944060083675B /* Verify Alien Dictionary.swift in Sources */,
 				189547EF27294CCD0083675B /* Longest Increasing Subsequence.swift in Sources */,
 				189547B3272948690083675B /* sortedListToBST.swift in Sources */,
+				18597BE3279B0B2F00659529 /* count of each character in the string.swift in Sources */,
 				189547A9272947D40083675B /* Powerful Integers.swift in Sources */,
+				18597BE5279B0B6A00659529 /* numberOfWords in string.swift in Sources */,
 				189547E527294C3C0083675B /* SQUARES OF SORTED ARRAY.swift in Sources */,
 				189547AB272947EF0083675B /* Running Sum.swift in Sources */,
 				1895477B272944840083675B /* Deepest Leaves using DFS recursion.swift in Sources */,
 				189547B12729484C0083675B /* LinkedList to Binary Search Tree.swift in Sources */,
 				189547892729456A0083675B /* Partition List .swift in Sources */,
+				18597BD7279B0A4A00659529 /* minimum and maximum.swift in Sources */,
 				18954769272943540083675B /* VOIP Call Intent iOS 13.swift in Sources */,
 				189547F127294CE80083675B /* Tower of haoi.swift in Sources */,
 				189547B9272948CF0083675B /* Sieve of Erathosthenes .swift in Sources */,
 				189547F327294CFF0083675B /* Subarray sum equal to k.swift in Sources */,
+				18597BE9279B0BFF00659529 /* split the string into chunks.swift in Sources */,
 				1895479D272946EE0083675B /* Pangram check.swift in Sources */,
 				189547C927294A880083675B /* Minimum Moves to Equal array.swift in Sources */,
 				189547CF27294ADB0083675B /* findAndReplacePattern.swift in Sources */,
@@ -543,6 +596,7 @@
 				189547D927294B6D0083675B /* Binary Tree Level Order Traversal.swift in Sources */,
 				1895478D272945CC0083675B /* Remove adjacent duplicates.swift in Sources */,
 				189547872729454B0083675B /* Vowel.swift in Sources */,
+				18597BD1279B09D200659529 /* removes the first occurrence from array.swift in Sources */,
 				18954771272943E30083675B /* Letter Combinations of a phone number.swift in Sources */,
 				189547A3272947590083675B /* Power of Three.swift in Sources */,
 				189547B7272948B40083675B /* Minimum Distance.swift in Sources */,
@@ -552,16 +606,20 @@
 				18954777272944480083675B /* Find Max Length.swift in Sources */,
 				189547AF2729482D0083675B /* Jump Game (Greedy).swift in Sources */,
 				189547E727294C540083675B /* Merge Two Binary Trees .swift in Sources */,
+				18597BE1279B0B0A00659529 /* fibonacci.swift in Sources */,
 				189547972729468F0083675B /* Triangle (Recursion and Memoization).swift in Sources */,
 				189547E127294C020083675B /* maxAreaOfIsland.swift in Sources */,
+				18597BDB279B0A8B00659529 /* occurrencesOfCharacters.swift in Sources */,
 				1895472327293FF90083675B /* flatten dictioary.swift in Sources */,
 				18954779272944650083675B /* Longest Valid Parenthesis .swift in Sources */,
 				189547DB27294B9E0083675B /* Find and Replace Pattern.swift in Sources */,
 				1895471F27293FF90083675B /* AppDelegate.swift in Sources */,
+				18597BD5279B0A2600659529 /* Reverse an array.swift in Sources */,
 				189547ED27294CB50083675B /* SYMMETRIC DIFFERENCE-.swift in Sources */,
 				189547C5272949A80083675B /* Longest String Chain .swift in Sources */,
 				18954795272946670083675B /* N-ary Tree Preorder.swift in Sources */,
 				18954757272941F10083675B /* Priority inversion.swift in Sources */,
+				18597BD3279B09FC00659529 /* removes all occurrences from array.swift in Sources */,
 				18954763272942E00083675B /* BalancedBrackets.swift in Sources */,
 				1895475F272942900083675B /* swap_origin.swift in Sources */,
 				1895475B2729424F0083675B /* Dispatch barrier.swift in Sources */,
@@ -585,9 +643,11 @@
 				1895472127293FF90083675B /* SceneDelegate.swift in Sources */,
 				189547C12729496C0083675B /* Flatten tree.swift in Sources */,
 				18954761272942B10083675B /* swap_using_generics.swift in Sources */,
+				18597BD9279B0A6900659529 /* Merge dictionaries.swift in Sources */,
 				189547C727294A620083675B /* Longest Mountain Array.swift in Sources */,
 				1895478B272945A80083675B /* Diameter of a Tree.swift in Sources */,
 				189547852729452B0083675B /* Flatten Nested List Iterator Solution.swift in Sources */,
+				18597BEB279B0C4C00659529 /* individual word reversed.swift in Sources */,
 				1895476D2729438B0083675B /* Map operator using iterator protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
