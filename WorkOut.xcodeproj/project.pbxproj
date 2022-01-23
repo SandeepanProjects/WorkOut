@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1801EBFE279D8F4A00B40039 /* moveNegativeToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801EBFD279D8F4A00B40039 /* moveNegativeToLeft.swift */; };
+		1801EC00279D8F7A00B40039 /* UnionAndIntersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801EBFF279D8F7A00B40039 /* UnionAndIntersection.swift */; };
+		1801EC02279D8FB200B40039 /* Rotation of an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801EC01279D8FB200B40039 /* Rotation of an Array.swift */; };
+		1801EC04279D8FDB00B40039 /* Largest sum contiguous Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801EC03279D8FDB00B40039 /* Largest sum contiguous Subarray.swift */; };
+		1801EC06279D901800B40039 /* Minimise the maximum difference between heights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801EC05279D901800B40039 /* Minimise the maximum difference between heights.swift */; };
+		1801EC08279D903C00B40039 /* minimumJumpsToReachEndOfTheArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801EC07279D903C00B40039 /* minimumJumpsToReachEndOfTheArray.swift */; };
 		18597BCF279B095F00659529 /* primeFactorsOfNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BCE279B095F00659529 /* primeFactorsOfNumber.swift */; };
 		18597BD1279B09D200659529 /* removes the first occurrence from array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BD0279B09D200659529 /* removes the first occurrence from array.swift */; };
 		18597BD3279B09FC00659529 /* removes all occurrences from array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18597BD2279B09FC00659529 /* removes all occurrences from array.swift */; };
@@ -132,6 +138,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1801EBFD279D8F4A00B40039 /* moveNegativeToLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveNegativeToLeft.swift; sourceTree = "<group>"; };
+		1801EBFF279D8F7A00B40039 /* UnionAndIntersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionAndIntersection.swift; sourceTree = "<group>"; };
+		1801EC01279D8FB200B40039 /* Rotation of an Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotation of an Array.swift"; sourceTree = "<group>"; };
+		1801EC03279D8FDB00B40039 /* Largest sum contiguous Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Largest sum contiguous Subarray.swift"; sourceTree = "<group>"; };
+		1801EC05279D901800B40039 /* Minimise the maximum difference between heights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimise the maximum difference between heights.swift"; sourceTree = "<group>"; };
+		1801EC07279D903C00B40039 /* minimumJumpsToReachEndOfTheArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimumJumpsToReachEndOfTheArray.swift; sourceTree = "<group>"; };
 		18597BCE279B095F00659529 /* primeFactorsOfNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeFactorsOfNumber.swift; sourceTree = "<group>"; };
 		18597BD0279B09D200659529 /* removes the first occurrence from array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "removes the first occurrence from array.swift"; sourceTree = "<group>"; };
 		18597BD2279B09FC00659529 /* removes all occurrences from array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "removes all occurrences from array.swift"; sourceTree = "<group>"; };
@@ -397,6 +409,12 @@
 				18597BE6279B0BB100659529 /* Reverse words in string.swift */,
 				18597BE8279B0BFF00659529 /* split the string into chunks.swift */,
 				18597BEA279B0C4C00659529 /* individual word reversed.swift */,
+				1801EBFD279D8F4A00B40039 /* moveNegativeToLeft.swift */,
+				1801EBFF279D8F7A00B40039 /* UnionAndIntersection.swift */,
+				1801EC01279D8FB200B40039 /* Rotation of an Array.swift */,
+				1801EC03279D8FDB00B40039 /* Largest sum contiguous Subarray.swift */,
+				1801EC05279D901800B40039 /* Minimise the maximum difference between heights.swift */,
+				1801EC07279D903C00B40039 /* minimumJumpsToReachEndOfTheArray.swift */,
 			);
 			path = WorkOut;
 			sourceTree = "<group>";
@@ -582,6 +600,7 @@
 				189547F327294CFF0083675B /* Subarray sum equal to k.swift in Sources */,
 				18597BE9279B0BFF00659529 /* split the string into chunks.swift in Sources */,
 				1895479D272946EE0083675B /* Pangram check.swift in Sources */,
+				1801EC06279D901800B40039 /* Minimise the maximum difference between heights.swift in Sources */,
 				189547C927294A880083675B /* Minimum Moves to Equal array.swift in Sources */,
 				189547CF27294ADB0083675B /* findAndReplacePattern.swift in Sources */,
 				18954781272944ED0083675B /* Finding the last level sum using queue.swift in Sources */,
@@ -594,6 +613,7 @@
 				189547CD27294ABD0083675B /* levelOrdertraversal.swift in Sources */,
 				189547C32729498A0083675B /* Valid Number.swift in Sources */,
 				189547D927294B6D0083675B /* Binary Tree Level Order Traversal.swift in Sources */,
+				1801EC08279D903C00B40039 /* minimumJumpsToReachEndOfTheArray.swift in Sources */,
 				1895478D272945CC0083675B /* Remove adjacent duplicates.swift in Sources */,
 				189547872729454B0083675B /* Vowel.swift in Sources */,
 				18597BD1279B09D200659529 /* removes the first occurrence from array.swift in Sources */,
@@ -603,7 +623,9 @@
 				18954793272946450083675B /* Combination Sum IV using Dynamic Programming.swift in Sources */,
 				189547A7272947A70083675B /* Date String to Epoch.swift in Sources */,
 				18954799272946B00083675B /* Min Path Top -Down recursion.swift in Sources */,
+				1801EC00279D8F7A00B40039 /* UnionAndIntersection.swift in Sources */,
 				18954777272944480083675B /* Find Max Length.swift in Sources */,
+				1801EBFE279D8F4A00B40039 /* moveNegativeToLeft.swift in Sources */,
 				189547AF2729482D0083675B /* Jump Game (Greedy).swift in Sources */,
 				189547E727294C540083675B /* Merge Two Binary Trees .swift in Sources */,
 				18597BE1279B0B0A00659529 /* fibonacci.swift in Sources */,
@@ -625,7 +647,9 @@
 				1895475B2729424F0083675B /* Dispatch barrier.swift in Sources */,
 				189547E927294C790083675B /* BFS & DFS.swift in Sources */,
 				18954765272943030083675B /* majority element.swift in Sources */,
+				1801EC02279D8FB200B40039 /* Rotation of an Array.swift in Sources */,
 				1895479F272947150083675B /* Count Binary Substrings.swift in Sources */,
+				1801EC04279D8FDB00B40039 /* Largest sum contiguous Subarray.swift in Sources */,
 				189547DD27294BC60083675B /* Reverse polish .swift in Sources */,
 				189547BB272948F00083675B /* Max Score from Cards Using Two Pointers.swift in Sources */,
 				189547E327294C200083675B /* A-STAR.swift in Sources */,
